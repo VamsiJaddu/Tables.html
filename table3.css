@@ -1,0 +1,22 @@
+th:nth-child(odd){
+   background-color: blue;
+}
+th:nth-child(even){
+  background-color:yellow;
+}
+.special{
+  background-color: red;
+}
+.some{
+  background-color: purple;
+}
+body{
+  overflow-y: scroll;
+}
+tr{
+  width:100%;
+  height:50px;
+}
+th,td{
+  border-bottom: 2px solid black;
+}
